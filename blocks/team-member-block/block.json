@@ -1,0 +1,26 @@
+{
+  "name": "team-member-block",
+  "title": "Team member block",
+  "description": "Display a team member profile in your page",
+  "category": "formatting",
+  "icon": "admin-users",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "template.php"
+  },
+  "supports": {
+    "anchor": true,
+    "jsx": true,
+    "interactivity": true,
+    "align": false,
+    "alignContent": false,
+    "color": {
+      "text": false,
+      "background": true,
+      "link": false
+    },
+    "alignText": false,
+    "fullHeight": false
+  },
+  "style": ["file:./style.css"]
+}

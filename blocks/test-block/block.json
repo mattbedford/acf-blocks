@@ -1,0 +1,26 @@
+{
+  "name": "test-block",
+  "title": "Just a test block",
+  "description": "Use this block as a basis for your own custom creations",
+  "category": "formatting",
+  "icon": "trash",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "template.php"
+  },
+  "supports": {
+    "anchor": true,
+    "jsx": true,
+    "interactivity": true,
+    "align": false,
+    "alignContent": false,
+    "color": {
+      "text": false,
+      "background": true,
+      "link": false
+    },
+    "alignText": false,
+    "fullHeight": false
+  },
+  "style": ["file:./style.css"]
+}
