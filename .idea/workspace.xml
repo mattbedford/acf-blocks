@@ -45,6 +45,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\Debian\home\matt-bedford\acf-custom-blocks" />
+      <recent name="\\wsl.localhost\Debian\home\matt-bedford\acf-custom-blocks\blocks" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -61,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732194635303</updated>
-      <workItem from="1732194636328" duration="362000" />
+      <workItem from="1732194636328" duration="3315000" />
     </task>
     <servers />
   </component>

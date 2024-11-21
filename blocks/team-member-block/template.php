@@ -17,9 +17,11 @@ $name = get_field("team_member_name");
 $role = get_field("team_member_role");
 $image = get_field('team_member_image');
 
+// Get WP-provided classes and atts based on those switched on inside the block json
+$classes = get_block_wrapper_attributes();
 
 // Then print out HTML as required.
-echo '<article id="" class="team-member-block" ' . get_block_wrapper_attributes() . '>';
+echo '<div ' . $classes . '>';
 echo '<div class="team-member-inner">';
 echo '<div class="team-member-image">';
 echo '<img src="' .  $image  . '">';
@@ -27,6 +29,6 @@ echo '</div>';
 echo '<div class="team-member-texts">';
 echo '<h4>' . esc_html($name) . '</h4>';
 echo '<h6>' . esc_html($role);
-echo '</div>';
-echo '</div>';
-echo '</article>';
+echo '</div>'; // End member texts
+echo '</div>'; // End team-member-inner
+echo '</div>'; // end team-member-block
