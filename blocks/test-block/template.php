@@ -14,6 +14,6 @@
 // Best practice instead is to use the get_field() functions from ACF instead.
 
 
-echo "<div>";
+echo "<div" . get_block_wrapper_attributes() . ">";
 echo "<h3>" . __("Hi, I am a test custom block. Now go build your own!", 'devteam') . "</h3>";
 echo "</div>";

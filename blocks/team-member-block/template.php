@@ -19,7 +19,7 @@ $image = get_field('team_member_image');
 
 
 // Then print out HTML as required.
-echo '<article id="" class="team-member-block">';
+echo '<article id="" class="team-member-block" ' . get_block_wrapper_attributes() . '>';
 echo '<div class="team-member-inner">';
 echo '<div class="team-member-image">';
 echo '<img src="' .  $image  . '">';
