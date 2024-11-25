@@ -22,5 +22,6 @@
     "alignText": false,
     "fullHeight": false
   },
-  "style": ["file:./style.css"]
+  "style": ["file:./style.css", "swiper-css"],
+  "script": ["swiper-js"]
 }
