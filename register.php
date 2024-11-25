@@ -1,6 +1,6 @@
 <?php
 
-namespace ACFCustomBlocks;
+namespace DevteamCustomBlocks;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;

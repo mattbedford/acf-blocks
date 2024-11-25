@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name: ACF Custom Blocks
+ * Plugin Name: Devteam Custom Blocks
  * Description: Templating structure for the creation of custom Gutenberg Blocks (procedural PHP version).
  * Version:     1.0.0
  * Author:      Matt Bedford | Ulisse
@@ -12,9 +12,7 @@
  */
 
 
-namespace ACFCustomBlocks;
-
-use CustomBlocks\Register;
+namespace DevteamCustomBlocks;
 
 if (!defined('ABSPATH')) {
 	exit;

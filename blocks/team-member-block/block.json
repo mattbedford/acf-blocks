@@ -1,4 +1,5 @@
 {
+  "schema": "https://github.com/AdvancedCustomFields/schemas/blob/main/json/block.json",
   "name": "team-member-block",
   "title": "Team member block",
   "description": "Display a team member profile in your page",
